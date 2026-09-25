@@ -1,0 +1,320 @@
+html, body {
+  margin: 0;
+  padding: 0;
+} 
+
+body {
+    background-color: #24481e;
+    background-image: linear-gradient(180deg, #649241, #24481e);
+    height: 531px;
+}
+
+main#home{
+    background-image: url(../images/homebackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+main#other {
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+footer {
+    background-color: #13330D;
+}
+
+div#friends {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+div#gallery {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+div#bottomleaves {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-grow: 1;
+}
+
+h1#title {
+    text-align: center;
+    font-family: Harrington, cursive;
+    font-size: 80px;
+    color:#bbd199;
+}
+
+h1#pagetitle  {
+    text-align: center;
+    font-family: Harrington, cursive;
+    font-size: 80px;
+    color:#649241;
+}
+
+h2 {
+    text-align: center;
+    color: #6c4807;
+    font-family: Harrington, cursive;
+    font-size: 55px;
+    padding: 50px;
+    background-color:antiquewhite;
+    border-radius: 7px;
+    border-width: 20px;
+    border-color: rgb(151, 104, 43);
+    border-style: outset;
+}
+
+p#tagline {
+    text-align: center;
+    font-family: Harrington, cursive;
+    font-size: 80px;
+    color:#649241;
+    background-image: url(..);
+}
+
+p#bestfriends {
+    width: 570px;
+    font-family: Harrington, cursive;
+    font-size: 25px;
+    text-align: center;
+    line-height: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-width: 20px;
+    border-color: #A334BB;
+    border-style:outset;
+    background-image: url(../images/notespecial.png);
+    flex-shrink: 1;
+}
+
+p#otherfriends {
+    width: 410px;
+    height: px;
+    font-family: Harrington, cursive;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-width: 12px;
+    border-color: #AE7815;
+    border-style: outset;
+    background-image: url(../images/notes.png);
+    flex-shrink: 1;
+}
+
+p#paragraphs {
+    font-family: Harrington, cursive;
+    font-size: 22px;
+    margin: 15px;
+    text-align: center;
+    line-height: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-width: 12px;
+    border-color: #AE7815;
+    border-style: outset;
+    background-image: url(../images/notes.png);
+    flex-shrink: 1;
+}
+
+p#welcome {
+    font-family: Harrington, cursive;
+    font-size: 30px;
+    margin: 15px;
+    text-align: center;
+    line-height: 30px;
+    padding: 5px;
+    border-width: 12px;
+    border-color: #AE7815;
+    border-style: outset;
+    background-image: url(../images/notes.png);
+    flex-shrink: 1;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+p.footer {
+    color:antiquewhite;
+    font-family: Harrington, cursive;
+    font-size: x-large;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+}
+
+a:link {
+    color: #AE7815;
+    font-family: Harrington, cursive;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #AE7815;
+    font-family: Harrington, cursive;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #AE7815;
+    font-family: Harrington, cursive;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:active {
+    color: #AE7815;
+    font-family: Harrington, cursive;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:link.footer {
+    color:rgb(249, 214, 167);
+    font-family: Harrington, cursive;
+    font-size: x-large;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:visited.footer {
+    color:rgb(249, 214, 167);
+    font-family: Harrington, cursive;
+    font-size: x-large;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover.footer {
+    color:rgb(249, 214, 167);
+    font-family: Harrington, cursive;
+    font-size: x-large;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:active.footer {
+    color:rgb(249, 214, 167);
+    font-family: Harrington, cursive;
+    font-size: x-large;
+    text-align: center;
+    text-decoration: none;
+}
+
+img#bestfriends {
+    border-left: 75px;
+    border-right: 75px;
+    border-top: 50px;
+    border-bottom:90px;
+    border-color: beige;
+    border-style: ridge;
+}
+
+img#otherfriends {
+    border:50px;
+    border-color: beige;
+    border-style: ridge;
+}
+
+span#bold {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+dl#menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+dt{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    font-size: 30px;
+    padding: 20px;
+    font-family: Harrington, cursive;
+    font-weight: bold;
+    background-image:linear-gradient(180deg, antiquewhite, rgb(226, 211, 168));
+    padding-right: 50px;
+    border-radius: 7px;
+    border-width: 20px;
+    border-color: rgb(151, 104, 43);
+    border-style: outset;
+}
+
+img#icon {
+    padding-right: 20px;
+}
+
+ul dt {
+    width: 570px;
+    font-family: Harrington, cursive;
+    font-size: 25px;
+    text-align: center;
+    line-height: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-width: 10px;
+    border-color: #A334BB;
+    border-style:outset;
+    background-image: url(../images/notespecial.png);   
+}
+
+ul dd {
+    font-family: Harrington, cursive;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    margin: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-width: 12px;
+    border-color: #AE7815;
+    border-style: outset;
+    background-image: url(../images/notes.png);
+    flex-shrink: 1;
+}
+
+table {
+    width: 1000px;
+    height: 300px;
+    background-image: url(../images/notespecial.png);
+    text-align: center;
+    font-family: Harrington, cursive;
+    font-size: 22px;
+    border-width: 15px;
+    border-color: #A334BB;
+    border-style:outset;
+}
+
+tr:nth-of-type(odd) {
+    background-color:#a354b75e ;
+}
+
+figcaption {
+    font-family: Harrington, cursive;
+    font-size: 22px;
+    text-align: center;
+    color: #3f2d0b;
+}
