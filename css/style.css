@@ -1,0 +1,90 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'Reindeer Modern';
+  src: url('../fonts/reindeer-modern.ttf') format('truetype');
+}
+
+body {
+    background-image: url(../images/poop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 531px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+dl#menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 300px;
+  margin-right: 300px;
+  padding: 15px;
+  background-color:rgb(255, 136, 0);
+}
+
+dt{
+    display: block;
+    justify-content: space-around;
+    align-items:center;
+    font-size: 40px;
+    padding: 20px;
+    text-decoration: none;
+}
+
+a:link {
+  color: #ffffff;
+  font-family: 'Reindeer Modern';
+  text-align: center;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #ffffff;
+  font-family: 'Reindeer Modern';
+  text-align: center;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+  font-family: 'Reindeer Modern';
+  text-align: center;
+  text-decoration: none;
+}
+
+a:active {
+  color: #ffebc5;
+  font-family: 'Reindeer Modern';
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #ffcc12;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  padding: 10px 16px;
+  background: #ffcc12;
+  color: #f1f1f1;
+  z-index: 1;
+  font-family: 'Reindeer Modern';
+}
+
+h1 {
+  font-size: xxx-large;
+  display: flex;
+  justify-content: center;
+}
+
+.navimg {
+  display: flex;
+  justify-content: center;
+}
