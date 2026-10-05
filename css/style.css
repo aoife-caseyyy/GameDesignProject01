@@ -1,0 +1,199 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'Reindeer Modern';
+  src: url('../fonts/reindeer-modern.ttf') format('truetype');
+}
+
+body {
+    background-image: url(../images/background.gif);
+    background-repeat: fixed;
+    background-size: cover;
+    background-attachment:fixed;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 513px;
+}
+
+main {
+  padding-left: 450px;
+  padding-top: 50px;
+  padding-right: 50px;
+}
+
+.sidenav {
+  height: 1250px;
+  width: 400px;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(to bottom, rgba(255 ,151, 32, 0.8), rgba(181, 77, 197, 0.8));
+  overflow-x: hidden;
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidenav a {
+  padding-bottom: 60px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+  font-family: 'Reindeer Modern', serif;
+}
+
+a:link {
+  color: #ffffff;
+  font-family: 'Reindeer Modern';
+  text-align: center;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #ffffff;
+  font-family: 'Reindeer Modern';
+  text-align: center;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+  font-family: 'Reindeer Modern';
+  text-align: center;
+  text-decoration: none;
+}
+
+a:active {
+  color: #ffebc5;
+  font-family: 'Reindeer Modern';
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.sidenav a:hover {
+  color: #fff7cf;
+}
+
+.main {
+  margin-left: 600px; 
+  display: flex;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  padding: 30px 16px;
+  margin-left: 400px;
+  background-image: linear-gradient(to bottom, rgba(255, 151, 32, 0.8 ), rgba(247, 143, 48, 0.8));
+  color: #f1f1f1;
+  z-index: 1;
+  font-family: 'Reindeer Modern';
+}
+
+h1 {
+  font-size: xxx-large;
+  font-family: 'Reindeer Modern';
+  color: #f1f1f1;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: 'Reindeer Modern';
+  color: #f1f1f1;
+  font-weight: normal;
+  background-color: rgba(224, 123, 255, 0.6);
+  display: inline-block;
+}
+
+.navimg {
+  display: flex;
+  justify-content: center;
+  padding-left: 30px ;
+}
+
+img {
+  padding-right: 40px;
+  padding-bottom: 40px;
+  vertical-align: text-top;
+}
+
+#images {
+  display: flex;
+}
+
+.smallerimages {
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  font-size: 40px;
+  font-family: 'Reindeer Modern';
+  color: #f1f1f1;
+  font-weight: normal;
+  background-color: rgba(224, 123, 255, 0.6);
+  display: inline-block;
+  justify-content: center;
+}
+
+main.index {
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-right: 50px;
+}
+
+#title {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.indexheader {
+  position: sticky;
+  top: 0;
+  padding: 30px 16px;
+  background-image: radial-gradient(circle, rgba(255, 151, 32, 0.8 )10%, rgba(197, 48, 247, 0.8)90%);
+  color: #f1f1f1;
+  z-index: 1;
+  font-family: 'Reindeer Modern';
+  display: flex;
+  justify-content: center;
+}
+
+dl#menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 300px;
+  margin-right: 300px;
+  padding: 15px;
+  background-image: radial-gradient(circle, rgb(224, 123, 255, 0.8)10%, rgba(149, 0, 199, 0.8)90%);
+}
+
+dt{
+  display: block;
+  justify-content: space-around;
+  align-items:center;
+  font-size: 40px;
+  padding: 20px;
+  text-decoration: none;
+}
+
+h2.index {
+  display: inline;
+}
+
+div.index {
+  display: flex;
+  justify-content: center;
+}
