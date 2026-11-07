@@ -115,6 +115,14 @@ h2 {
   display: inline-block;
 }
 
+h3 {
+  font-size: 40px;
+  font-family: 'Reindeer Modern';
+  color: #f1f1f1;
+  font-weight: normal;
+  display: inline-block;
+}
+
 .navimg {
   display: flex;
   justify-content: center;
@@ -144,6 +152,14 @@ p {
   background-color: rgba(224, 123, 255, 0.6);
   display: inline-block;
   justify-content: center;
+}
+
+.footertext{
+    font-family: 'Reindeer Modern';
+    font-size: 35px;
+    text-align: center;
+    line-height: 55px;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 main.index {
@@ -181,17 +197,29 @@ p.infobox {
     background-image: linear-gradient(to bottom, rgba(255 ,151, 32, 0.6),rgba(197, 48, 247, 0.6) );
 }
 
+p.largeinfobox {
+    width: 1300px;
+    font-family: 'Reindeer Modern';
+    font-size: 35px;
+    text-align: center;
+    line-height: 55px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-image: linear-gradient(to bottom, rgba(255 ,151, 32, 0.6),rgba(197, 48, 247, 0.6) );
+}
 
 .indexfooter {
   position: sticky;
   top: 0;
-  padding: 30px 16px;
+  padding: 30px 0px;
   background-image: radial-gradient(circle, rgba(255, 151, 32, 0.8 )10%, rgba(197, 48, 247, 0.8)90%);
   color: #f1f1f1;
   z-index: 1;
   font-family: 'Reindeer Modern';
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 dl#menu {
@@ -233,4 +261,12 @@ div.paragraphs {
 div.bio {
   display: flex;
   justify-content: center;
+}
+
+.note {
+  font-size: 35px;
+  font-family: 'Reindeer Modern';
+  color: #f1f1f1;
+  font-weight: bold;
+  background-color: rgba(255, 163, 212, 0.6);
 }
